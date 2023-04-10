@@ -10,7 +10,6 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        Stage s = Screen.getStage();
-        welcomeText.setText(s.toString());
+        welcomeText.setText("Hello, JavaFX!");
     }
 }
