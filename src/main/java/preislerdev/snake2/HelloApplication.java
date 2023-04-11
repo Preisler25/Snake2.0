@@ -1,6 +1,8 @@
 package preislerdev.snake2;
 
 import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import java.io.IOException;
 
