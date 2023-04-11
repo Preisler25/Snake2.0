@@ -11,7 +11,7 @@ public class Screen {
     private static Scene scene;
 
     public static void setStage(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(SnakeGame.class.getResource("hello-view.fxml"));
         Screen.stage = stage;
         scene = new Scene(fxmlLoader.load(), 1920, 1000);
         stage.setTitle("Hello!");
@@ -23,7 +23,7 @@ public class Screen {
         stage.setScene(scene);
     }
     public static void setPageFromFXML(String fxml) throws IOException {
-        FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(SnakeGame.class.getResource("hello-view.fxml"));
         scene.setRoot(loader.load());
         stage.setScene(scene);
     }

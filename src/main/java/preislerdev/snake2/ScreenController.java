@@ -2,9 +2,8 @@ package preislerdev.snake2;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
 
-public class HelloController {
+public class ScreenController {
     @FXML
     private Label welcomeText;
 
